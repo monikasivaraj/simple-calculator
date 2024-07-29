@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONIKA's Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <div class="cal">
+        <div>
+            <input type="text" id="inputab" placeholder="0">
+        </div>
+       <div class="ab">
+        
+            <button class="button" onclick="clearall()">Ac</button>
+            <button class="button" onclick="delet()"> del </button>
+            <button class="button" onclick="display('%')">%</button>
+            <button class="button" onclick="display('/')">/</button>
+        
+            <button class="button" onclick="display('9')">9</button>
+            <button class="button" onclick="display('8')">8</button>
+            <button class="button" onclick="display('7')" >7</button>
+            <button class="button"  onclick="display('*')">*</button>
+        
+            <button class="button" onclick="display('6')">6</button>
+            <button class="button" onclick="display('5')">5</button>
+            <button class="button" onclick="display('4')" >4</button>
+            <button class="button" onclick="display('+')">+</button>
+        
+            <button class="button" onclick="display('3')">3</button>
+            <button class="button" onclick="display('2')">2</button>
+            <button class="button" onclick="display('1')">1</button>
+            <button class="button" onclick="display('-')">-</button>
+        
+            <button class="button" onclick="display('00')">00</button>
+            <button class="button" onclick="display('0')">0</button>
+            <button class="button" onclick="display('.')">.</button>
+            <button class="button" onclick="calculate()">=</button>
+        
+       </div>
+    </div>
+    <script src="main.js"></script>
+    
+</body>
+</html>
